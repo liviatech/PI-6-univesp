@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+}
+
+header {
+  background:
+    url("icone_projeto_integrador_5.jpg") no-repeat left center,
+    #689fe2;   /* cor única */
+
+  background-size: 380px, cover;
+  padding: 20px 20px 20px 400px; /* espaço proporcional à imagem */
+  color: white;
+  text-align: center;
+}
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e88e5;
+}
+
+.charts {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.chart-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
